@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car Dude Detailing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Poppins', sans-serif; background: linear-gradient(to right, #0f2027, #203a43, #2c5364); color: #fff; }
+    header { background: #000; padding: 10px 20px; display: flex; align-items: center; justify-content: space-between; }
+    header img { height: 50px; }
+    nav a { color: #00cfff; margin: 0 10px; text-decoration: none; font-weight: 600; }
+    .hero { padding: 80px 20px; text-align: center; }
+    .hero h1 { font-size: 3em; margin-bottom: 20px; }
+    .hero p { font-size: 1.2em; max-width: 700px; margin: auto; }
+    .button { background: #00cfff; color: #000; padding: 15px 30px; border: none; margin-top: 30px; font-size: 1em; border-radius: 5px; cursor: pointer; }
+    section { padding: 60px 20px; text-align: center; }
+    h2 { font-size: 2.5em; color: #00cfff; margin-bottom: 30px; }
+    .services, .reviews, .gallery { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); max-width: 1200px; margin: auto; }
+    .card { background: #111; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px #000; }
+    .gallery img { width: 100%; border-radius: 10px; height: 200px; object-fit: cover; }
+    iframe { border: none; width: 100%; height: 300px; border-radius: 10px; }
+    footer { background: #000; padding: 40px 20px; font-size: 0.9em; }
+    .footer-details { max-width: 900px; margin: auto; line-height: 1.6; }
+    .highlight { color: #00cfff; font-weight: 600; }
+    .whatsapp { background: #25d366; color: white; padding: 15px 25px; display: inline-block; border-radius: 50px; text-decoration: none; margin-top: 20px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Car Dude Detailing Logo">
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Car Dude Detailing</h1>
+    <p>Windsor’s #1 Mobile Auto Detailing Service – Experience perfection on wheels.</p>
+    <a href="#contact" class="button">Book Now</a>
+  </div>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">Basic Car Wash</div>
+      <div class="card">Premium Wash + Executive Interior</div>
+      <div class="card">Paint Correction & Ceramic Coating</div>
+      <div class="card">Headlight Restoration</div>
+      <div class="card">Engine Detailing</div>
+      <div class="card">Event/Corporate Detailing</div>
+      <div class="card">Disinfecting Services</div>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="reviews">
+      <div class="card">"Absolutely amazing! My car looks brand new again!" – Alex T.</div>
+      <div class="card">"Top-notch quality and excellent customer service." – Nadia M.</div>
+      <div class="card">"Highly recommend Car Dude to anyone in Windsor!" – Devon R.</div>
+      <div class="card">"Best detail I've had in years. 10/10 experience." – Lisa B.</div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="gallery1.jpg" alt="Before and After">
+      <img src="gallery2.jpg" alt="Interior Cleaning">
+      <img src="gallery3.jpg" alt="Engine Detailing">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Location</h2>
+    <p class="highlight">Walk-ins are welcome!</p>
+    <a class="whatsapp" href="https://wa.me/12269611796" target="_blank">Message Us on WhatsApp</a>
+    <div style="margin-top:30px;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.030769186011!2d-83.03766482389694!3d42.30407144214316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b2d9d4c0b4fbf%3A0x6362c1db57c8e7a4!2s483%20Tecumseh%20Rd%20W%2C%20Windsor%2C%20ON%20N8X%201G8!5e0!3m2!1sen!2sca!4v1712618130382!5m2!1sen!2sca"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-details">
+      <p><span class="highlight">Address:</span> 483 Tecumseh Rd W, Windsor, ON N8X 1G8</p>
+      <p><span class="highlight">Phone:</span> (226) 961-1796</p>
+      <p><span class="highlight">WhatsApp:</span> +1 226 961 1796</p>
+      <p><span class="highlight">Hours:</span> Mon–Sat 9:30 a.m.–5:30 p.m. | Sunday Closed</p>
+    </div>
+  </footer>
+</body>
+</html>
